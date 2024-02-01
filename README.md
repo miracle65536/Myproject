@@ -128,6 +128,16 @@ The program consists of the following modules:
             for child in self.pre[node]:
                     stack.put((child, cur_path + [child]))
   ```
+## Demo
+Enter two words
+```
+pass
+shot
+```
+Output
+```
+pass -> replaces -> play -> Dangerous -> excessive -> Lukas -> Nmecha -> Ampadu -> Ethan -> Gazzaniga -> Assisted -> missed -> shot
+```
 ## Third-party library
 * pandas
 * numpy
